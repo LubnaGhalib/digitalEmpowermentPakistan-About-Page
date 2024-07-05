@@ -78,10 +78,7 @@ function showTestimonial(index, autoplay = false) {
 
     currentIndex = index;
 
-   if (!autoplay) {
-        // Prevent scrolling to testimonial section on page load or refresh
-        window.scrollTo({ top: 0, behavior: 'auto' });
-    }
+   
 }
 
 function autoplayTestimonials() {
